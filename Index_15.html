@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Сонячні панелі у приватних будинках</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header, nav, main, aside, footer {
+      padding: 20px;
+      margin: 10px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      background-color: #ffffff;
+    }
+
+    header {
+      background-color: #fff3e0;
+    }
+
+    nav {
+      background: linear-gradient(-45deg, #e3f2fd, #bbdefb, #e1f5fe, #e3f2fd);
+      background-size: 400% 400%;
+      animation: animateNav 10s ease infinite;
+    }
+
+    aside {
+      background: linear-gradient(45deg, #ede7f6, #d1c4e9, #ede7f6, #d1c4e9);
+      background-size: 400% 400%;
+      animation: animateAside 12s ease infinite;
+    }
+
+    footer {
+      background-color: #f1f8e9;
+      text-align: center;
+    }
+
+    @keyframes animateNav {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    @keyframes animateAside {
+      0% {background-position: 100% 0%;}
+      50% {background-position: 0% 100%;}
+      100% {background-position: 100% 0%;}
+    }
+
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 40px;
+      color: darkorange;
+      text-align: center;
+    }
+
+    h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background-color: darkorange;
+      margin-top: 5px;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    main {
+      flex: 3;
+    }
+
+    aside {
+      flex: 1;
+    }
+
+    figure img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .toc ul {
+      padding-left: 20px;
+    }
+
+    .toc li {
+      list-style-type: square;
+    }
+
+    .toc a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      text-decoration: underline;
+    }
+
+    aside a {
+      color: #4a148c;
+      text-decoration: none;
+    }
+
+    aside a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Сонячні панелі у приватних будинках</h1>
+</header>
+
+<nav class="toc">
+  <strong>Зміст:</strong>
+  <ul>
+    <li><a href="#advantages">Переваги</a></li>
+    <li><a href="#types">Типи</a></li>
+    <li><a href="#installation">Монтаж</a></li>
+    <li><a href="#storage">Акумулювання</a></li>
+    <li><a href="#economy">Економіка</a></li>
+    <li><a href="#conclusion">Висновки</a></li>
+  </ul>
+</nav>
+
+<div class="container">
+  <main>
+    <section id="advantages">
+      <article>
+        <h2>Переваги використання сонячних панелей</h2>
+        <figure>
+          <img src="images/solar-roof1.jpg" alt="Сонячні панелі на даху">
+          <figcaption>Типове розміщення сонячних панелей</figcaption>
+        </figure>
+        <p>Сонячна енергія — чисте, безкоштовне та невичерпне джерело енергії...</p>
+        <ul>
+          <li>Низькі витрати</li>
+          <li>Тривалий термін служби</li>
+          <li>Екологічна безпека</li>
+          <li>Можливість продажу надлишкової енергії</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="types">
+      <article>
+        <h2>Типи сонячних панелей</h2>
+        <ul>
+          <li>Монокристалічні — ефективні, але дорогі</li>
+          <li>Полікристалічні — дешевші, трохи нижча ефективність</li>
+          <li>Тонкоплівкові — гнучкі, легкі, але менш ефективні</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="installation">
+      <article>
+        <h2>Монтаж та орієнтація</h2>
+        <p>Оптимальне розташування — на південь, з кутом 30–35°...</p>
+      </article>
+    </section>
+
+    <section id="storage">
+      <article>
+        <h2>Системи зберігання енергії</h2>
+        <p>Акумулятори дозволяють зберігати енергію для використання вночі...</p>
+        <ul>
+          <li>Літій-іонні</li>
+          <li>Гібридні системи</li>
+        </ul>
+        <figure>
+          <img src="images/solar-roof2.jpg" alt="Монтаж сонячних панелей">
+          <figcaption>Монтаж сонячних панелей</figcaption>
+        </figure>
+      </article>
+    </section>
+
+    <section id="economy">
+      <article>
+        <h2>Економіка та підтримка</h2>
+        <ul>
+          <li>Окупність — 5-7 років</li>
+          <li>Державні програми</li>
+          <li>Можливість продажу енергії</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="conclusion">
+      <article>
+        <h2>Висновки</h2>
+        <p>Сонячні панелі — вигідне та екологічне рішення...</p>
+        <ul>
+          <li>Незалежність від тарифів</li>
+          <li>Екологічність</li>
+          <li>Інвестиція з вигодою</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <aside>
+    <h3>Корисні посилання</h3>
+    <ul>
+      <li><a href="https://www.nerc.gov.ua/reformuvannya-rinkiv/korisni-posilannya">Законодавства енергетичного співтовариства</a></li>
+      <li><a href="https://saee.gov.ua/">Держенергоефективності України</a></li>
+      <li><a href="https://www.unian.ua/economics/energetics">Енергетичні новини України</a></li>
+    </ul>
+  </aside>
+</div>
+
+<footer>
+  <p>&copy; 2025 Енергія майбутнього</p>
+</footer>
+
+</body>
+</html>
